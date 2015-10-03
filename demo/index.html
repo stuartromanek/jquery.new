@@ -1,0 +1,18 @@
+<script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+<script src='../src/jquery.new.js'></script>
+
+<script>
+	$(function() {
+		
+		var $some = $.new({
+			element: 'h1',
+			class: 'subheading',
+			html: 'a good subhead',
+			data: 'some-good'
+		});
+
+		console.log($some);
+		$('body').append($some);
+		
+	});
+</script>
