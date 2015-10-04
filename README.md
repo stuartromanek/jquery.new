@@ -1,6 +1,6 @@
 # jQuery.new
 
-Lightweight plugin that creates and returns a jQuery element ready to go
+Tiny plugin that creates and returns a jQuery element ready 2 go
 
 ` var $e = $.new(settings) `
 
@@ -8,10 +8,11 @@ Lightweight plugin that creates and returns a jQuery element ready to go
 
 ```
 settings: {
-	element: 'h2', // default is div
+	tag: 'h2', // default is div
 	class: 'app-subhead',
 	id: 'subheading',
 	data: 'data-something',
-	data: { data-something: 'true' }
+	data: { data-something: 'true' }, // or pass an attribute key/value
+	html: 'The contents of your element's innerHTML!'
 }
 ```

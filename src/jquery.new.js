@@ -4,12 +4,11 @@ $.extend({
 
 	new: function(options) {
 		var defaults = {
-			element: 'div',
-			html: 'Pass me HTML!'
+			tag: 'div'
 		};
 
 		var o = $.extend(defaults, options);
-		var $e = $(document.createElement(o.element));
+		var $e = $(document.createElement(o.tag));
 		$e.attr({
 			'class': o.class,
 			'id': o.id
