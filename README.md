@@ -1,6 +1,6 @@
 # jQuery.new
 
-Tiny plugin that creates and returns a jQuery element ready 2 go
+Utility that returns a new jQuery element ready 2 go
 
 ` var $e = $.new(settings) `
 
